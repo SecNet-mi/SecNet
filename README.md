@@ -1,2 +1,2 @@
 # SecNet
-We will release the code after the paper is accepted. 
+We are refining the code to enhance its readability and ease of use, with the release scheduled for March 1, 2025.
