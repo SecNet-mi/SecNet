@@ -62,10 +62,16 @@ For more details on usage, check the documentation in the codebase.
 If these codes help you, we'd appreciate it if you could cite our paper:
 
 ```
-Wei Liang, Brendan Z. Allison, Ren Xu, Xinjie He,Xingyu Wang, Andrzej Cichocki, Jing Jin. Information Processing & Management 2025 Vol. 62 Issue 3 Pages 104012
-
-DOI: https://doi.org/10.1016/j.ipm.2024.104012
-
+@article{liang2025secnet,
+  title={SecNet: A second order neural network for MI-EEG},
+  author={Liang, Wei and Allison, Brendan Z and Xu, Ren and He, Xinjie and Wang, Xingyu and Cichocki, Andrzej and Jin, Jing},
+  journal={Information Processing \& Management},
+  volume={62},
+  number={3},
+  pages={104012},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
 ## License

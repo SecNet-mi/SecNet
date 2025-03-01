@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 """
-All network architectures: FBCNet, EEGNet, DeepConvNet
-@author: Ravikiran Mane
+FBMSNet: A Filter-Bank Multi-Scale  Convolutional Neural Network for EEG-Based  Motor Imagery Decoding
 """
 
 import torch
