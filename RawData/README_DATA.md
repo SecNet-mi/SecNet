@@ -10,14 +10,14 @@ The data used in this study are already publicly available at the following: Ope
 
 ```
 RawData/
-├── BCICIV_2a_gdf/A01E.gdf, A01E.mat, ...
+├── BCICIV_2a/A01E.gdf, A01E.mat, ...
 └── OpenBMI/
     ├── session1/sess01_subj01_EEG_MI.mat, sess01_subj02_EEG_MI.mat ...
     └── session2/sess02_subj01_EEG_MI.mat ...
 ```
 
 ## BCI IV 2a
-For the BCI IV 2a dataset, the files are specifically located in `SecNet\RawData\BCICIV_2a_gdf\`
+For the BCI IV 2a dataset, the files are specifically located in `SecNet\RawData\BCICIV_2a\`
 
 ### File List
 

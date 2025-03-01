@@ -168,7 +168,7 @@ def get_EEG_K_Fold_Scheme(sub, data_path, k=10, validation_size=0.2, data_seed=2
 
 class Load_IV2a:
     def __init__(self,  *args):
-        self.file_to_load = os.path.join(os.path.dirname(os.path.dirname(__file__)),'RawData','BCICIV_2a_gdf')
+        self.file_to_load = os.path.join(os.path.dirname(os.path.dirname(__file__)),'RawData','BCICIV_2a')
         self.channels_to_remove = ['EOG-left', 'EOG-central', 'EOG-right']
         self.fs = None
         super(Load_IV2a, self).__init__(*args)
