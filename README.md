@@ -59,7 +59,7 @@ For more details on usage, check the documentation in the codebase.
 
 ## Citation
 
-If these codes help you, we'd appreciate it if you could cite our paper:
+If these codes help you, please cite:
 
 ```
 @article{liang2025secnet,
