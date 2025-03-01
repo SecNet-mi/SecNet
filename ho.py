@@ -250,7 +250,6 @@ class runner:
                 acc, cm = ho_test_FB(i, self.data_dir_path, self.net_name, self.device, self.Net)
             else:
                 acc, cm= ho_test_withdataset(i, self.test_dataset, self.net_name,self.device, self.Net)
-            acc = acc.item()
             all_accu.append(acc)
 
             exporter.plot_confusion_matrix(conf_matrix=cm,subNo=i)
