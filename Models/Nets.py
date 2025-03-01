@@ -56,7 +56,7 @@ class BaseModel(nn.Module):
             in_size=self.input_channels * 3 if isinstance(self.fusion,Concat) else self.input_channels
             self.Sconv3 = nn.Sequential(PointwiseConv2d(in_size, 100))
             self.attention_module=R_attention(100,p,drop_att)
-            self.log_layer1 = LogmLayer(100, vectorize=False)
+            self.log_layer1 = LogmLayer(100)
             self.vec = Vec(100)
             self.FC = nn.Sequential(nn.Linear(5050, class_num))
 
