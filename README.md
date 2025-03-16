@@ -13,9 +13,9 @@ SecNet is a neural network model designed to enhance motor imagery (MI) decoding
 
 ## Requirements
 
-- Python 3.10 or newer
+- Python 3.10 
 - PyTorch 2.2.2 
-- NumPy
+- Numpy 1.26.3 (Numpy 2.x.x may cause errors in EEG processing)
 - Other dependencies can be found in `requirements.txt`.
 
 
